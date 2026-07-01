@@ -116,10 +116,6 @@ BidMaster is a real-time online auction platform where sellers can list products
 
 - Socket.IO
 
-### Image Storage
-
-- Cloudinary
-
 ### Deployment
 
 - Vercel
@@ -152,30 +148,6 @@ Frontend
 cd client
 npm install
 ```
-
----
-
-## 🔑 Environment Variables
-
-Create a `.env` file inside the backend directory.
-
-```env
-PORT=5000
-
-MONGO_URI=your_mongodb_connection_string
-
-JWT_SECRET=your_jwt_secret
-
-CLOUDINARY_CLOUD_NAME=your_cloud_name
-
-CLOUDINARY_API_KEY=your_api_key
-
-CLOUDINARY_API_SECRET=your_api_secret
-
-CLIENT_URL=http://localhost:5173
-```
-
----
 
 ## ▶️ Running the Project
 
@@ -246,62 +218,5 @@ http://localhost:5173
 - QR Code Payments
 - Advanced Analytics Dashboard
 
----
-
-## 🧪 Testing
-
-Run the test suite using:
-
-```bash
-npm test
-```
 
 ---
-
-## 🤝 Contributing
-
-Contributions are always welcome!
-
-1. Fork the repository.
-2. Create a new feature branch.
-
-```bash
-git checkout -b feature/your-feature
-```
-
-3. Commit your changes.
-
-```bash
-git commit -m "Add your feature"
-```
-
-4. Push to your branch.
-
-```bash
-git push origin feature/your-feature
-```
-
-5. Open a Pull Request.
-
----
-
-## 📄 License
-
-This project is licensed under the **MIT License**.
-
----
-
-## 👨‍💻 Author
-
-**Ayush Bhange**
-
-MERN Stack Developer
-
-- GitHub: https://github.com/yourusername
-- LinkedIn: https://linkedin.com/in/yourprofile
-
----
-
-## ⭐ Support
-
-If you found this project helpful, please consider giving it a **⭐** on GitHub. Your support helps the project grow and motivates further development.
